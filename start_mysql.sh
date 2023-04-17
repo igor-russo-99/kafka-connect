@@ -1,0 +1,1 @@
+docker run -it --rm --name mysql -p 3306:3306 -v /home/igorsr/git/kafka-connect-pluralsight/mysql.cnf:/etc/mysql/conf.d/mysql.cnf -e MYSQL_ROOT_PASSWORD=password -e MYSQL_USER=globomantics -e MYSQL_PASSWORD=password -e MYSQL_DATABASE=globomantics mysql:5.7
